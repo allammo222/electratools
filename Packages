@@ -220,19 +220,19 @@ Description: flexible multi-protocol file transfers
 Name: cURL
 
 Package: cydia
-Version: 1.9
+Version: 1.9.1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
-Depends: cydia-gui, apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), cy+cpu.arm64
+Depends: cydia-gui, apt7-lib, apt7-key, darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), cy+cpu.arm64
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
-Filename: debs/cydia_2.0_iphoneos-arm.deb
-Size: 98752
-MD5sum: 4f392c4e6fa9bf625562e46560b9dee7
-SHA1: d57bc7a38f3f8a56c9905a3f6015e1be5446f3b3
-SHA256: 49ade8a3d5791154d1fd358a6bcb56005a7a5a2bdcc209309da50095a4099606
+Filename: debs/cydia_1.9.1_iphoneos-arm.deb
+Size: 98742
+MD5sum: 523732bbacff629c401d9840008245d3
+SHA1: caad252a35a337cc2edca3658c63e389ca68b693
+SHA256: 59bd0b519fc4131084630c23e2dd8bf1b2a884e7f53c611831caf125b447f98e
 Section: Packaging
 Priority: required
 Description: Base scripts and tools to set up Cydia-compatible virtual dependencies
