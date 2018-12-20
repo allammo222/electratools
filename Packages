@@ -16,41 +16,41 @@ Description: finger, fingerd, last, lsvfs, md, ps
 Tag: purpose::console, role::hacker
 
 Package: apt7
-Version: 1.4.8
+Version: 1.7.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt7-key, apt7-lib (>= 1.4.8), berkeleydb, cy+cpu.arm64
+Depends: apt7-key, apt7-lib (>= 1.7.0), berkeleydb, cy+cpu.arm64
 Replaces: apt (<< 1:0-1)
-Filename: debs/apt/apt7_1.4.8_iphoneos-arm.deb
-Size: 261906
-MD5sum: 8fcaf3e5f2199cf771b889a22a077955
-SHA1: 7f262df1e40c4e55209d78f49521459602b307b9
-SHA256: 52b9fd9cc3d026d3d5816fde2a5fc9967e435f50b9304c30dfb92709cb880420
+Filename: debs/apt/apt7_1.7.0_iphoneos-arm.deb
+Size: 270268
+MD5sum: be72697a6eab6a20211a40bb3d57a8ba
+SHA1: 04fea304cdbc19158c628847329d300c60e228e5
+SHA256: 99b044ee43b6839ffe2c26218f0836e70b20e499f40b4d89beeb83bc2ad3d660
 Section: Packaging
 Priority: standard
 Description: the advanced packaging tool from Debian
-Name: APT 1.4 Strict
+Name: APT 1.7 Strict
 
 Package: apt7-key
-Version: 1.4.8
+Version: 1.7.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt7-lib (>= 1.4.8), cy+cpu.arm64
+Depends: apt7-lib (>= 1.7.0), cy+cpu.arm64
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
-Filename: debs/apt/apt7-key_1.4.8_iphoneos-arm.deb
-Size: 8426
-MD5sum: 23adc700346aa9d173ec425c50d5dbe2
-SHA1: 6d9c68a135ea7b8bc0b7d5639d405e703df8f78d
-SHA256: 9f0743e354e6c9350c17100994ee5e8a71eba807a13f79752cbd75dfbbe0fa83
+Filename: debs/apt/apt7-key_1.7.0_iphoneos-arm.deb
+Size: 8656
+MD5sum: 849d7c3b0275b44f7171588dccdb763a
+SHA1: 3ed7ae0a5d777e2ea1e330cb54a03e0632289501
+SHA256: 7e99e95e24ffbb7598396bc29d43f09bbbfe4ef51b1e9ddfb0b81a3cb9ce4a99
 Section: Packaging
 Priority: standard
 Description: repository encryption key management tool
-Name: APT 1.4 (apt-key)
+Name: APT 1.7 (apt-key)
 
 Package: apt7-lib
-Version: 1.4.8-1
+Version: 1.7.0-sileo2
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
@@ -60,15 +60,15 @@ Conflicts: apt7-ssl
 Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
 Provides: apt7-ssl
-Filename: debs/apt/apt7-lib_1.4.8-1_iphoneos-arm.deb
-Size: 1412420
-MD5sum: 86c1b03ad5b83f59efc08333c532b917
-SHA1: 871f97c90084a85ef2796cf528e66dca0fd28dbf
-SHA256: 6ebe75144ec1e915bd4d5660eb2a6995b134194f6e9e6aa1ceee69bb8f183e00
+Filename: debs/apt/apt7-lib_1.7.0-sileo_iphoneos-arm.deb
+Size: 1485916
+MD5sum: f2fdd15674e05ca5276e2fa9adba8e6f
+SHA1: c397f4601ba2f54dd3731558ec73d45e0e22acbb
+SHA256: 040938293c2232c51c395cd2af44f2e468d0f60cb69e0360a7162cb906d96dd1
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
-Name: APT 1.4 Strict (lib)
+Name: APT 1.7 Strict (lib)
 
 Package: bash
 Version: 4.4.18
@@ -863,15 +863,15 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.tweakinject
-Version: 1.0.7-2
+Version: 1.0.8
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute
-Filename: debs/org.coolstar.tweakinject_1.0.7-2_iphoneos-arm.deb
-Size: 24146
-MD5sum: 0822f503bf46cfe63d1687d774ce7dec
-SHA1: 9f0ee45a46ee259f12820befd5cd0eec73bc2e6a
-SHA256: 9de231e8761fcae0c1638f691ff41a06020d7fd651c89a62733a0653871fa457
+Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute | org.coolstar.substrateloader
+Filename: debs/org.coolstar.tweakinject_1.0.8_iphoneos-arm.deb
+Size: 23836
+MD5sum: 60f04256a1614cf50eb868c5c865d10f
+SHA1: c955d74b209a4e7c7652e34f1a3b861d9962ee3f
+SHA256: 158cd5375a8bad726dfe29202c60036ed483c804e0e8ac2720c62ed703da0ea0
 Section: System
 Description: General purpose tweak loader with safe mode in case of crashes
 Author: CoolStar <coolstarorganization@gmail.com>
