@@ -50,7 +50,7 @@ Description: repository encryption key management tool
 Name: APT 1.7 (apt-key)
 
 Package: apt7-lib
-Version: 1.7.0-sileo2
+Version: 1.7.0-sileo3
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
@@ -61,10 +61,10 @@ Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
 Provides: apt7-ssl
 Filename: debs/apt/apt7-lib_1.7.0-sileo_iphoneos-arm.deb
-Size: 1485916
-MD5sum: f2fdd15674e05ca5276e2fa9adba8e6f
-SHA1: c397f4601ba2f54dd3731558ec73d45e0e22acbb
-SHA256: 040938293c2232c51c395cd2af44f2e468d0f60cb69e0360a7162cb906d96dd1
+Size: 1486554
+MD5sum: 2799526f47d0f5738fa8e45d6aa1c39c
+SHA1: 786c5451ad8cd882a4ccc05ee9cee622fdac04d0
+SHA256: ac831b4a0017a811b69f0c3631646f251f99fa05ba3f2afa19931c415e711a13
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
