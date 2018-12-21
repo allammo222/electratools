@@ -539,15 +539,15 @@ Homepage: http://www.gnu.org/software/grep/
 Description: searches files for regular expressions
 
 Package: gzip
-Version: 1.8
+Version: 1.9
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: grep, sed, cy+cpu.arm64
-Filename: debs/gzip_1.8_iphoneos-arm.deb
-Size: 46130
-MD5sum: b21ecbef4935a678211f5230a8ac84d6
-SHA1: e85775a6c2997a8bbe27e531d066bcbb75db77e7
-SHA256: e51cb45bc4f5919a35447d40b6579e3de2b7b5841a48242b6f60aee2ceabd840
+Filename: debs/gzip_1.9_iphoneos-arm.deb
+Size: 60358
+MD5sum: a2247f5beb43ef0d6f36980e38aad711
+SHA1: 03705cd172caa7bc8fee18869cc2b510917de522
+SHA256: 5ed13c3a91337301772067b930b90d9a2750ce4872f1b2e630ce1bbedadbd844
 Section: Archiving
 Priority: required
 Homepage: http://www.gzip.org/
@@ -733,16 +733,16 @@ Author: CoolStar <coolstarorganization@gmial.com>
 Name: Substrate Compatibility Layer
 
 Package: nano
-Version: 2.9.7
+Version: 3.2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: ncurses (>=6.1), cy+cpu.arm64
-Filename: debs/nano_2.9.7_iphoneos-arm.deb
-Size: 170390
-MD5sum: ce04eef7013963705b7edd4dddb739c3
-SHA1: 6aaf978e9e22f67e93ed1c93f9869c7a67a3f3af
-SHA256: 7a6b597c6b52f5176c307e0dba5fdb0f0b5e70640af2279abddf69e390e89398
+Filename: debs/nano_3.2_iphoneos-arm.deb
+Size: 177026
+MD5sum: 52b7b165da8a0e3ee933e77b0692e4ec
+SHA1: 1987b15ef66bcddc326f5d6389261139b12c39f3
+SHA256: d7a419c48883205e370c1dd5ca0a06e04109790bfbc05c199aacb99a50db9fdf
 Section: Text_Editors
 Priority: standard
 Description: completely free, modern clone of Pico
