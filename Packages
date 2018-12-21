@@ -384,7 +384,7 @@ Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: tar (>= 1.23)
 Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, tar, cy+cpu.arm64
-Filename: debs/dpkg_1.19.2_iphoneos-arm.deb
+Filename: debs/dpkg_1.19.2-2_iphoneos-arm.deb
 Size: 321880
 MD5sum: d1010381781b5b93f1cb6c633c498cba
 SHA1: 41939a9f343ef2fcae4af66f1557e22d6bbb4e66
