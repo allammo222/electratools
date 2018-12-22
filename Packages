@@ -718,15 +718,15 @@ Tag: purpose::console, role::hacker
 Name: Make
 
 Package: mobilesubstrate
-Version: 99.0
+Version: 99.1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: org.coolstar.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
-Filename: debs/mobilesubstrate_99.0_iphoneos-arm.deb
-Size: 2724
-MD5sum: 5d951a9de3c708fc452184e0dccaea01
-SHA1: 53ae841ffe0e903fe90a5160b84fb04c7bd68e38
-SHA256: ba3dcadd045c39640952cb17a126e4a3612b4aba70f7b3c2d751712993127ee6
+Filename: debs/mobilesubstrate_99.1_iphoneos-arm.deb
+Size: 2740
+MD5sum: 2e1bb67767edf15d50487f7d05108ddb
+SHA1: 2f2e6593f66bcf8f052e6c6db14833fc17f23222
+SHA256: 29b06803831985c74464f9837e548e3a13720c6eba5ef5a3ada8479f790c4010
 Section: System
 Description: Compatibility wrapper for Substrate tweaks to work with Tweak Injector + Substitute
 Author: CoolStar <coolstarorganization@gmial.com>
