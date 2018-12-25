@@ -241,16 +241,16 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: Cydia Compatibility Package
 
 Package: cydia-gui
-Version: 1.1.30-2
+Version: 1.1.30-4
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: cy+cpu.arm64
 Replaces: cydia
-Filename: debs/cydia-gui_1.1.30-3_iphoneos-arm.deb
-Size: 1064822
-MD5sum: 6f95579dc6e0740c9768235b75a004cb
-SHA1: 25d4549bbe041c6cd92ca86ed7cc76ccf36bd153
-SHA256: d19fabb2d166d7e32f2352564fdf3c221d0619210101f9b0c824287b28bc31a6
+Filename: debs/cydia-gui_1.1.30-4_iphoneos-arm.deb
+Size: 1064048
+MD5sum: 87ab48b7750567e2ef8377f61f1aa8e3
+SHA1: d817e6eb66af993449f88d087585ba56bb24490e
+SHA256: d8c1351a48510e5ed56d6b9e992ed160137e8cbbc87da59f61a04ff5abd3a5d2
 Section: Packaging
 Priority: required
 Description: graphical iPhone front-end for APT
@@ -861,6 +861,26 @@ Priority: standard
 Description: Uninstall all installed tweaks and revert Electra to the state where it was immediately after jailbreaking
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
+
+Package: org.coolstar.sileo
+Version: 0.3b1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Depends: org.coolstar.sileo, apt7 (>= 1.7.0), apt7-lib (>= 1.7.0-sileo), apt7-key (>= 1.7.0), dpkg (>= 1.19.2-4), cydia (>= 1.9.1), cy+cpu.arm64
+Conflicts: cydia-gui (<= 1.1.30-3)
+Filename: debs/org.coolstar.sileo_0.3b1_iphoneos-arm.deb
+Size: 840800
+MD5sum: 0d421583922a5057e303bbe83fdd9b58
+SHA1: 3f94d548b879f94f892e5ddad49e1cadf867bc81
+SHA256: e97bb648d505e764f893e91b3cba86868ebd4fbe5b85195794dc18c8d0db60b5
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Sileo (Beta)
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
 Package: org.coolstar.tweakinject
 Version: 1.0.8-sileo
