@@ -882,6 +882,24 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: Sileo (Beta)
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
+Package: org.coolstar.substrateloader
+Version: 0.9.7000
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.tweakinject, dpkg (>=1.19.2-4), cy+cpu.arm64
+Conflicts: mobilesubstrate, com.ex.libsubstitute
+Replaces: mobilesubstrate, com.ex.libsubstitute
+Provides: mobilesubstrate (=0.9.7000)
+Filename: debs/org.coolstar.substrateloader_0.9.7000_iphoneos-arm.deb
+Size: 5000
+MD5sum: 46153163f9d07ec52358087741b6a363
+SHA1: c17f0f83dd188bd5554d8021a206a6608380d469
+SHA256: 8814a492d661e77a97104d0a466b5c429128bcc7432255c5a5df07159a26553c
+Section: System
+Description: Substrate downloader and extractor for Electra. Also working proof the original substrate works fine on Electra
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Substrate Downloader
+
 Package: org.coolstar.tweakinject
 Version: 1.0.8-sileo
 Architecture: iphoneos-arm
