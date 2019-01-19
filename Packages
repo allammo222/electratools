@@ -16,17 +16,18 @@ Description: finger, fingerd, last, lsvfs, md, ps
 Tag: purpose::console, role::hacker
 
 Package: apt7
-Version: 1.7.0
+Version: 1.7.0-2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt7-key, apt7-lib (>= 1.7.0), berkeleydb, cy+cpu.arm64
 Replaces: apt (<< 1:0-1)
-Filename: debs/apt/apt7_1.7.0_iphoneos-arm.deb
-Size: 270268
-MD5sum: be72697a6eab6a20211a40bb3d57a8ba
-SHA1: 04fea304cdbc19158c628847329d300c60e228e5
-SHA256: 99b044ee43b6839ffe2c26218f0836e70b20e499f40b4d89beeb83bc2ad3d660
+Provides: apt
+Filename: debs/apt/apt7_1.7.0-2_iphoneos-arm.deb
+Size: 270360
+MD5sum: 7640b9fa855a56f79b1c67bdaca3bdf2
+SHA1: f9643a155a1c0bf235ba7d271f9b3278a862b1d4
+SHA256: 0d4191e552ead4e3d99a7f3b80d40896cda8d73a70d5131833dd6231e2122018
 Section: Packaging
 Priority: standard
 Description: the advanced packaging tool from Debian
