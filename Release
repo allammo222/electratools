@@ -5,4 +5,11 @@ Version: 1.0
 Architectures: iphoneos-arm
 Components: main
 Codename: electrarepo64
-Description: Core Utilities for Electra and other arm64 iOS jailbreaks
+Description: Core Utilities for Electra and other arm64 iOS jailbreaksMD5Sum:
+ dc8fbc020e98b314ebb0abc187406772 41218 Packages
+ 6ea6dc26b27fb16620a4067ceafd6487 11457 Packages.bz2
+ b709de7bd447becc401f9810eaa8d98a 11992 Packages.xz
+SHA256:
+ 9dbc023c0c1b32d561a446a0ff7f49abaf950fdad139ae27fa8f055ec13c339d 41218 Packages
+ a7f3e46b9d92e2c031b4dda3748167620deda12ae34c8c11e703274d1a0b16a9 11457 Packages.bz2
+ 5acb7ef71ffbfca9043d2d93ef6d8e9510d5828dca5ff5429c5d4027b8dd422a 11992 Packages.xz
