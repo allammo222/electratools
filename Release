@@ -7,10 +7,10 @@ Components: main
 Codename: electrarepo64
 Description: Core Utilities for Electra and other arm64 iOS jailbreaks
 MD5Sum:
- dc8fbc020e98b314ebb0abc187406772 41218 Packages
- 6ea6dc26b27fb16620a4067ceafd6487 11457 Packages.bz2
- b709de7bd447becc401f9810eaa8d98a 11992 Packages.xz
+ 64c6eb487a26ea86aa487cb84451eed0 42149 Packages
+ 12e547702f51f325737a58c8a3b8e54c 11712 Packages.bz2
+ 6f9093e36dfcb90b341d56e640add97a 12244 Packages.xz
 SHA256:
- 9dbc023c0c1b32d561a446a0ff7f49abaf950fdad139ae27fa8f055ec13c339d 41218 Packages
- a7f3e46b9d92e2c031b4dda3748167620deda12ae34c8c11e703274d1a0b16a9 11457 Packages.bz2
- 5acb7ef71ffbfca9043d2d93ef6d8e9510d5828dca5ff5429c5d4027b8dd422a 11992 Packages.xz
+ a996d98c857568c0b85aa0a75bfb9b786e015c808a812aaa21d0fa28ef483d05 42149 Packages
+ 67d0459e441313b00f7a9c243830337509bb5223efa7f749290f98092c37b906 11712 Packages.bz2
+ 5abfe6c2e4d5327b3c5597b8fefc6821aea62a2ef940e7ee0514cb98e96f47b2 12244 Packages.xz
