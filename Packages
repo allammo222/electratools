@@ -260,16 +260,16 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: Cydia Compatibility Package
 
 Package: cydia-gui
-Version: 1.1.30-4
+Version: 1.1.30-5
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: cy+cpu.arm64
 Replaces: cydia
-Filename: debs/cydia-gui_1.1.30-4_iphoneos-arm.deb
-Size: 1064048
-MD5sum: 87ab48b7750567e2ef8377f61f1aa8e3
-SHA1: d817e6eb66af993449f88d087585ba56bb24490e
-SHA256: d8c1351a48510e5ed56d6b9e992ed160137e8cbbc87da59f61a04ff5abd3a5d2
+Filename: debs/cydia-gui_1.1.30-5_iphoneos-arm.deb
+Size: 1064132
+MD5sum: a3eb89fc15ff3405735cb9d935a7e98c
+SHA1: a84b5f59d5ddcc2c52309ae934bad02c89ea264d
+SHA256: 306bca0397e8a2bd50d2974f5df634eb0b3c4bff3f932a810f68c7730b9646b6
 Section: Packaging
 Priority: required
 Description: graphical iPhone front-end for APT
