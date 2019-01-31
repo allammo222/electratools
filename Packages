@@ -398,16 +398,16 @@ Description: mount, quota, fsck, fstyp, fdisk, tunefs
 Tag: purpose::console, role::hacker
 
 Package: dpkg
-Version: 1.19.2-4
+Version: 1.19.4
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: tar (>= 1.23)
 Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, tar, cy+cpu.arm64
-Filename: debs/dpkg_1.19.2-4_iphoneos-arm.deb
-Size: 323488
-MD5sum: f5b63a0bc915daece91abce730a95972
-SHA1: e9cfa6c9fc24baca272ee316649d753831912ad5
-SHA256: 2ecbdd4791d2b0bbc47b41ef77c2a40a192128bcc14e0a5839450ad14fcb8e92
+Filename: debs/dpkg_1.19.4_iphoneos-arm.deb
+Size: 260852
+MD5sum: ef9e468a3cf75e67fa9a8f313ec82eea
+SHA1: ab0d4bb1829ed5ca20daccb1fbd9376683d4a6dc
+SHA256: 68eab94ed275d77af46256854a889da89c470b56b93325b69c7e7a33558da2e6
 Section: Packaging
 Priority: required
 Homepage: http://wiki.debian.org/Teams/Dpkg

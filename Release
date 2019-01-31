@@ -6,12 +6,12 @@ Architectures: iphoneos-arm
 Components: main
 Codename: electrarepo64
 Description: Core Utilities for Electra and other arm64 iOS jailbreaks
-Date: Wed, 30 Jan 2019 20:49:18 +0000
+Date: Thu, 31 Jan 2019 10:09:39 +0000
 MD5Sum:
- 479ff0e8b8e481f560ce129f226351f9 42149 Packages
- 90cd150d6a458dc12c362d4b826e84a9 11725 Packages.bz2
- e62fde4c115a66034a12be86dc200ac4 12236 Packages.xz
+ b4841f9ed79a9ade7f7c5e77b7f7ca12 42145 Packages
+ 3a784cc6deaeb09cb44a922b04e8b12b 11721 Packages.bz2
+ 59ec9ae35c0f6acf06e209ff7cfe939f 12244 Packages.xz
 SHA256:
- bde798c507f908190b78873c18d976c470b5df0d9a37761db2b67da7194a5f90 42149 Packages
- b359b8d6661f6dee150d73f72f69ed59f52e91ee5d1ebf48b26eb826e98730c0 11725 Packages.bz2
- 654416c1bbe41ab186b93e0fcb38e2b9c87893a82cc8ceac4fa080fb1b83fae6 12236 Packages.xz
+ f524cd7e62777b0fcdc9288d1479293eaa13df23c15f18878e22e7fcfeb80563 42145 Packages
+ 3aa9e7c59dab18b5eef53bcb42fd2d8f28204a13beb3b739552e44002bd69b78 11721 Packages.bz2
+ 3982a7eaf1d2152b5bd084af75a62cbb53536d1aa13deed732c7d9ef82662435 12244 Packages.xz
